@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body>  
     <header>
                 <nav class="navbar" >
                     <div class="myLogo" id="logo">p</div>
@@ -20,12 +20,14 @@
                     </ul>
                 </nav>  
     </header>   
-    <h1>Chat.Collaborate.Create</h1>
+   <div class="hero-text">
+     <h1>Chat.Collaborate.Create</h1>
     <!-- <h3>Our platform is built to help people from all walks of life connect, communicate, and collaborate on ideas and projects.<br>
      Whether you’re a professional, a student, or someone looking to share and learn, this is the place for you.</h3> -->
      <a href="about.html" id="start-btn">
         <button id="start">Let's Start</button>
     </a>
+   </div>
     <footer>
         <a href="www.linkedin.com/in/pavani-abothula-1b809b310">LinkdIn</a>
         <a href="abothulapavani16@gmail.com">Email</a>
@@ -33,4 +35,10 @@
         <a href="pawany__12">Instagram</a>
     </footer>
 </body>
+<script>
+    function toggleMenu() {
+        const navLinks = document.getElementById('nav-links');
+        navLinks.classList.toggle('active');
+    }
+</script>    
 </html>
