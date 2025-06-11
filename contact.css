@@ -1,0 +1,293 @@
+
+/* Body */
+body {
+    
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Contact Section */
+.contact-section {
+    max-width: 900px;
+    
+    margin: 90px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Contact Container */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Form */
+form {
+    flex: 1;
+    min-width: 50%;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffb6c1;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff69b4;
+}
+
+/* Contact Info */
+.contact-info {
+    flex: 1;
+    min-width: 40%;
+    padding: 20px;
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+
+body {
+    
+    background-color:rgb(224, 255, 192);
+    background-repeat: repeat;
+}
+
+header {
+   display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 95%;
+    top: 0%;
+    z-index: 100;
+    padding: 30px 30px;
+    
+    background-color:rgb(255, 192, 203);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-bottom-right-radius: 90px;
+    border-top-left-radius: 90px;
+    
+}
+
+nav{
+    word-spacing: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    
+}
+.active {
+    font-weight: bold;
+    color: darkmagenta;
+    font-weight: bolder;
+    
+}
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+  gap: 1px; 
+  margin-top:100px;
+  
+}
+h1{
+    text-align: center;
+    margin-top: 170px;
+    font-size: 50px;
+}
+.hero-text button {
+  padding: 15px 20px;
+  background-color: #ffb6c1;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: rgb(31, 30, 30);
+}
+
+footer {
+   display: flex;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 60%;
+    
+    bottom: 0%;
+    right: 0%;
+    z-index: 100;
+    padding: 25px 30px;
+    
+    background-color:rgb(255, 192, 203);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+    border-top-left-radius: 90px;
+    
+}
+
+
+footer a {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: 500;
+  margin-left: 30px;
+}
+#logo{
+     border-radius: 50px; 
+     z-index: 10000;
+    position: fixed;
+    top: 0;
+    margin-left: 40px;
+    height: 80px;
+
+    width: 80px;
+}
+
+#start-btn button:hover {
+  background-color: hsl(304, 100%, 71%);
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+body {
+    background-color: rgb(224, 255, 192);
+    
+    background-repeat: repeat;
+} 
+   header{
+    padding: 35px;
+    position: fixed;
+    width: 79%;
+    gap: 0px;
+    border-bottom-right-radius: 90px;
+    border-top-left-radius: 90px;
+  }
+  footer {
+    
+    align-items: center;
+    padding: 30px;
+    width: 70%;
+    gap: 5px;
+    border-top-left-radius: 200px;
+    
+  }
+  #logo{
+    margin-left: 0;
+    margin-right: 900px;
+  }
+
+  .nav-links {
+    display: flex;
+    /* flex-direction: column; */
+    content-visibility: auto;
+    content-visibility: visible;
+    text-align: end;
+    gap: 0.6rem;
+  }
+    
+
+ .hero-text{
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   justify-content: center; 
+   text-align: center;
+   gap: 1px; 
+   line-height: 0.8rem;
+   margin-top:100px;
+
+ }
+.hero-text h1 {
+    font-size: 1.8rem;
+    margin: 80px 10px;
+    
+  }
+
+  #start-btn button {
+    margin: 0px 10px;
+
+    font-size: small;
+
+
+  }
+   
+#start-btn button:hover {
+  background-color: #ff69b4;
+  color: white;
+}
+ 
+}
